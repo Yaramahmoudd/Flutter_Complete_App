@@ -55,6 +55,8 @@ dependencies:
   easy_localization: ^3.0.5
   # For splash screen
   flutter_native_splash: ^2.4.0
+  flutter_svg: ^2.0.10+1
+  flutter_screenutil: ^5.9.0
 
 
 
