@@ -2,10 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_complete_app/core/helpers/extensions.dart';
 import 'package:flutter_complete_app/features/onboarding/widgets/doc_logo_and_name.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
 import '../../../core/routing/routes.dart';
 import '../../../core/theming/styles.dart';
-import '../../../core/widgets/custom_main_botton.dart';
+import '../widgets/get_start_button.dart';
 import '../widgets/doctor_image_and_text.dart';
 
 class OnboardingScreen extends StatelessWidget {
@@ -33,7 +32,7 @@ class OnboardingScreen extends StatelessWidget {
                       textAlign:TextAlign.center,style: TextStyles.font14GrayRegular,
                     ),
                     SizedBox(height: 30.h),
-                CustomMainButton(
+                GetStartedButton(
                   text: 'Get Started',
                   onTap: () {
                     context.pushNamed(Routes.loginScreen);
